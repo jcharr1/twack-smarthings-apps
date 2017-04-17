@@ -41,6 +41,8 @@ metadata {
         capability "Switch Level"
 		capability "Refresh"
 		capability "Polling"
+        capability "Sensor"
+		capability "Actuator"
 
 		attribute "stepsize", "string"
 
